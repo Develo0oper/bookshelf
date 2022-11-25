@@ -1,0 +1,27 @@
+.search-line {
+  display: flex;
+  height: fit-content;
+}
+.search-line .search-line__autocomplete {
+
+  width: 300px;
+}
+.search-line .search-line__button {
+  margin-left: 10px;
+  min-width: 90px;
+}
+
+@media (max-width: 500px) {
+  .search-line {
+    flex-direction: column-reverse;
+    width: 90%;
+    padding: 0 10px;
+  }
+  .search-line .search-line__button {
+    margin: 10px 0;
+  }
+  .search-line .search-line__autocomplete {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+}

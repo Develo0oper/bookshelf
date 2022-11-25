@@ -1,0 +1,15 @@
+.books-list {
+    padding: 50px 0;
+    max-width: 400px;
+}
+.books-list .books-list__card {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 200px;
+    width: calc(100% - 20px);
+}
+.books-list .books-list__card-media {
+    height: 80%;
+    max-width: 100px;
+}

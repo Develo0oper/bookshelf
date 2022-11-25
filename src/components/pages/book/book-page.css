@@ -1,0 +1,17 @@
+.book-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px 15px;
+}
+.book-page > div, .book-page .book-page__image {
+    margin-top: 10px;
+}
+.book-page .book-page__image {
+    max-width: 100%;
+}
+.book-page .book-page__title {
+    text-align: center;
+}
